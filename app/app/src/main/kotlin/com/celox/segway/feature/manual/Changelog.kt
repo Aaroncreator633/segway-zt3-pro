@@ -26,6 +26,16 @@ object Changelog {
 
     val entries: List<Entry> = listOf(
         Entry(
+            version = "0.4.0",
+            versionCode = 14,
+            date = "2026-09-30",
+            highlights = listOf(
+                "Introduced the AARON ZT3 Pro E glassmorphism dashboard with a French-first UI and dedicated ZT3 branding.",
+                "Added a new launcher dashboard while preserving the original full BLE control application behind the Commands button.",
+                "Added bundled ZT3 Pro E product imagery and EU 051801E presentation.",
+            ),
+        ),
+        Entry(
             version = "0.3.0",
             versionCode = 13,
             date = "2026-04-28",

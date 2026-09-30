@@ -41,18 +41,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Segway"
         tools:targetApi="34">
-
         <activity
-            android:name=".MainActivity"
+            android:name=".AaronDashboardActivity"
             android:exported="true"
             android:theme="@style/Theme.Segway"
-            android:screenOrientation="portrait"
-            android:configChanges="orientation|screenSize|keyboardHidden|uiMode">
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Segway"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize|keyboardHidden|uiMode" />
+
 
         <service
             android:name=".core.ble.BleConnectionService"
